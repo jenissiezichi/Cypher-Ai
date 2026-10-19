@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-ink: #090711;
+  --color-brand-purple: #A855F7;
+  --color-brand-blue: #5B5CFF;
+  --color-brand-cyan: #00D9FF;
+  --color-tint: #F5F3FF;
+  --font-display: "Orbitron", sans-serif;
+  --font-hand: "Patrick Hand", cursive;
+}
+
+
