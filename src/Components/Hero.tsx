@@ -1,12 +1,12 @@
 import GradientWaves from "./GradientWaves";
-import { Lightbulb, Code, FileText, GraduationCap, Ellipsis, Paperclip, Globe, ArrowUp } from "lucide-react";
+import { Lightbulb, Code, FileText, GraduationCap, Paperclip, Globe, ArrowUp } from "lucide-react";
 import StrokeText from "./StrokeText";
 const chips = [
   { label: "Brainstorm", icon: Lightbulb },
   { label: "Code", icon: Code },
   { label: "Text", icon: FileText },
   { label: "Advice", icon: GraduationCap },
-  { label: "More", icon: Ellipsis },
+
 ];
 
 
@@ -19,16 +19,16 @@ export default function Hero() {
     </div>
 <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-40 bg-linear-to-b from-transparent to-tint"></div>
       <span className="inline-block rounded-full border border-white/60 bg-white/40 px-4 py-1.5 text-sm text-ink/70 backdrop-blur-md">
-        Experience the power of Cyphra
+        An AI assistant built to evolve
       </span>
 
       <h1 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-bold text-ink md:text-6xl">
-        Build and Create with
+          More than a chatbot.
       </h1>
       <StrokeText text="Cyphra AI." fontFamily="Orbitron, sans-serif" fontWeight="500" strokeColor="#A855F7" strokeWidth={1.4} fillColor="#5B5CFF" letterSpacing={0} fontSize={64}/>
 
       <p className="mx-auto mt-4 max-w-xl text-ink/60">
-        Your AI partner for coding, learning, research and creativity.
+          An AI assistant that keeps your conversations, understands context and keeps gaining new capabilities.
       </p>
       <div className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-2">
         {chips.map((chip) => (

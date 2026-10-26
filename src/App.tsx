@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from '@/Components/Navbar'
 import Hero from './Components/Hero'
 import Goals from './Components/Goals'
+import  Roadmap from './Components/Roadmap'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <Navbar />
       <Hero/>   
       <Goals/>
+       <Roadmap/>
    </div>
     </div>
   )

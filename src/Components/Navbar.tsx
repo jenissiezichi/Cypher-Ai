@@ -2,7 +2,7 @@ import logoIcon from "../assets/logo-icon.png";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const links = ["Home", "Features", "Pricing", "Resources"];
+const links = ["Home", "Features", "Roadmaps", "Docs"];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
