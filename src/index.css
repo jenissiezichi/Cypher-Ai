@@ -24,6 +24,14 @@
       transform: translateY(0);
     }
   }
+  --animate-node-in: node-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+@keyframes node-in {
+    from{
+      left: 50%;
+      top: 50%;
+      opacity: 0;
+    }
+  }
 }
 
 

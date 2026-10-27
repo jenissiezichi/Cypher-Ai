@@ -3,6 +3,8 @@ import Navbar from '@/Components/Navbar'
 import Hero from './Components/Hero'
 import Goals from './Components/Goals'
 import  Roadmap from './Components/Roadmap'
+import CallToAction from "@/Components/CallToAction.tsx";
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -14,6 +16,9 @@ function App() {
       <Hero/>   
       <Goals/>
        <Roadmap/>
+       <CallToAction/>
+       <Footer/>
+
    </div>
     </div>
   )
